@@ -1,0 +1,32 @@
+.container-fluid {
+  max-width: 1200px;
+}
+
+.visible-dpi2x {
+  display: none;
+}
+
+.hidden-dpi2x {
+  display: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-top: 1px solid #ececec;
+}
+
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    .visible-dpi2x {
+      display: inherit;
+    }
+    .hidden-dpi2x {
+      display: none;
+    }
+}

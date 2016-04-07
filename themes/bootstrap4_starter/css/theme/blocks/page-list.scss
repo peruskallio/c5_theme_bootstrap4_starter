@@ -1,0 +1,31 @@
+// Put all the block specific stuff here for the "Page List" block.
+// Once done, remember also to add this line in the theme's page_theme.php, within the registerAssets() method:
+// $this->providesAsset('css', 'blocks/page_list');
+
+.ccm-block-page-list-thumbnail-grid-wrapper {
+  @include make-row();
+
+  .ccm-block-page-list-page-entry-grid-item {
+    @include make-col(4);
+    margin-bottom: 30px;
+
+    img {
+      @include respond-to(md) {
+        height: 147px;
+      }
+      @include respond-to(lg) {
+        height: 193px;
+      }
+      @include respond-to(xl) {
+        height: 240px;
+      }
+    }
+  }
+  .ccm-block-page-list-title {
+    margin-top: 15px;
+    font-size: 1.05em;
+    font-weight: 700;
+    line-height: 1.42857143;
+    text-transform: none;
+  }
+}

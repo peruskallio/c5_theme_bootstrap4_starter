@@ -1,0 +1,4 @@
+// Due to how bootstrap is structured, we need to reset the textarea height here.
+textarea.form-control {
+  height: auto;
+}

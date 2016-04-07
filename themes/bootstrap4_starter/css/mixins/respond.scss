@@ -1,0 +1,7 @@
+@mixin respond-to($name) {
+  @if map-has-key($grid-breakpoints, $name) {
+    @media (min-width: map-get($grid-breakpoints, $name)) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.ccm-block-testimonial-wrapper {
+  @include clearfix();
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.ccm-block-testimonial {
+  .ccm-block-testimonial-image,
+  .ccm-block-testimonial-text {
+    float: left;
+    margin: 0;
+  }
+  .ccm-block-testimonial-image {
+    width: 25%;
+  }
+  .ccm-block-testimonial-text {
+    width: 75%;
+  }
+}
