@@ -1,9 +1,9 @@
-@import "bootstrap/variables.scss";
-@import "bootstrap/mixins.scss";
-@import "variables.scss";
-@import "mixins.scss";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "variables";
+@import "mixins";
 
-@import "bootstrap/reboot.scss";
+@import "bootstrap/reboot";
 
 html, body {
   margin: 0;
@@ -24,7 +24,7 @@ body {
 
 // Tooltips are appended to the body, so their styles need to be outside of the
 // .ccm-page wrapper.
-@import "bootstrap/tooltip.scss";
+@import "bootstrap/tooltip";
 
 .ccm-page {
   font-family: $font-family-base;
@@ -33,30 +33,30 @@ body {
   color: $body-color;
 
   // Lib stuff
-  @import "lib/tether.scss";
+  @import "lib/tether";
 
   // Bootstrap stuff for the theme
-  @import "bootstrap/utilities.scss";
-  @import "bootstrap/grid.scss";
-  @import "bootstrap/grid-framework.scss";
-  @import "bootstrap/scaffolding.scss";
-  @import "bootstrap/normalize.scss";
-  @import "bootstrap/responsive-utilities.scss";
-  @import "bootstrap/nav.scss";
-  @import "bootstrap/navbar.scss";
-  @import "bootstrap/forms.scss";
-  @import "bootstrap/buttons.scss";
+  @import "bootstrap/utilities";
+  @import "bootstrap/grid";
+  @import "bootstrap/grid-framework";
+  @import "bootstrap/scaffolding";
+  @import "bootstrap/normalize";
+  @import "bootstrap/responsive-utilities";
+  @import "bootstrap/nav";
+  @import "bootstrap/navbar";
+  @import "bootstrap/forms";
+  @import "bootstrap/buttons";
 
   // Theme specific stuff
-  @import "theme/defaults.scss";
-  @import "theme/general.scss";
-  @import "theme/header.scss";
-  @import "theme/footer.scss";
-  @import "theme/buttons.scss";
-  @import "theme/forms.scss";
-  @import "theme/blocks/image-slider.scss";
-  @import "theme/blocks/page-list.scss";
-  @import "theme/blocks/testimonial.scss";
+  @import "theme/defaults";
+  @import "theme/general";
+  @import "theme/header";
+  @import "theme/footer";
+  @import "theme/buttons";
+  @import "theme/forms";
+  @import "theme/blocks/image-slider";
+  @import "theme/blocks/page-list";
+  @import "theme/blocks/testimonial";
 }
 
 // IE10 in Windows (Phone) 8
